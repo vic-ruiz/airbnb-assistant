@@ -1,0 +1,29 @@
+# Core app / UI
+streamlit==1.39.0
+typing_extensions==4.12.2
+python-dotenv==1.0.1
+requests==2.32.3
+pytz==2024.2
+jinja2==3.1.4
+watchdog==5.0.3
+
+# NLP / RAG
+sentence-transformers==3.2.1
+transformers==4.44.2
+tokenizers==0.19.1
+safetensors==0.4.5
+faiss-cpu==1.8.0.post1
+scikit-learn==1.4.2
+langdetect==1.0.9
+dateparser==1.2.0
+
+# iCal
+icalendar==5.0.13
+recurring-ical-events==2.2.3
+
+# Numpy “seguro”
+numpy==1.26.4
+
+# PyTorch (para sentence-transformers)
+torch==2.2.2
+

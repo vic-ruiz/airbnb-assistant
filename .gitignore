@@ -1,0 +1,14 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Configuración privada
+.env
+
+# Índices y bases generadas
+data/faiss.index
+data/kb.sqlite
+
+# Cache y compilados
+__pycache__/
+*.pyc
