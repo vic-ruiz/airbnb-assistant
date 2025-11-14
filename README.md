@@ -82,7 +82,7 @@ ollama serve
 ## 1) Clonar el repositorio
 
 ```bash
-git clone https://github.com/noencrp87/airbnb-assistant.git
+git clone https://github.com/vic-ruiz/airbnb-assistant
 cd airbnb-assistant
 ```
 
@@ -93,6 +93,10 @@ cd airbnb-assistant
 ```powershell
 py -3.11 -m venv .venv
 .venv\Scripts\Activate.ps1
+
+# macOS / Linux
+python3.11 -m venv .venv
+source .venv/bin/activate
 ```
 
 ---
